@@ -146,8 +146,8 @@
         </article>
         <article class="col-md-9 text-right">
               <ul class="standard-nav standard-nav-dark-text visible-lg">
-            <li><a href="#intro" class="scroll highlighted" id="intro-linker">Home</a></li>
-            <li><a href="#about" class="scroll" id="about-linker">About</a></li>
+            <li><a href="#intro" class="scroll highlighted" id="intro-linker">{{homeLinkText}}</a></li>
+            <li><a href="#about" class="scroll" id="about-linker">{{aboutLinkText}}</a></li>
             <li><a href="#questions" class="scroll" id="services-linker">{{secondLinkText}}</a></li>
             <li><a href="{{thirdLinkUrl}}">{{thirdLinkText}}</a></li>
             <li><a href="#">{{fourthLinkText}}</a></li>
@@ -193,7 +193,7 @@
              Nam molestie felis quis nisi fermentum rhoncus. Fusce ut scelerisque lectus, fermentum vulputate lectus. Quisque volutpat sodales leo, at viverra urna varius eu. Fusce at lacus massa.
             </h6>
             <div class="welcome-button">
-              <a class="btn btn-polo btn-polo-brown scroll" href="{{contactUrl}}">Contact</a>
+              <a class="btn btn-polo btn-polo-brown scroll" href="{{contactUrl}}">{{contactLinkText}}</a>
             </div>
 
           </article>
@@ -242,7 +242,7 @@
             <li>
               <div class="service-name-wrap ease animated" data-fx="fadeInLeftBig">
                 <a href="#service-detail-01" class="service-name">
-                  Illustration
+                  {{serviceDetail01Text}}
                 </a>
               </div>
               <div id="service-detail-01" class="service-details">
@@ -253,7 +253,7 @@
                   <article class="col-md-10 text-left">
                     <h5>Lorem ipsum dolor sit amet</h5>
                     <p>
-  
+  Etiam nulla urna, ultricies ac purus sed, ullamcorper consequat neque. 
 
 
                     </p>
@@ -268,7 +268,7 @@
             <li>
               <div class="service-name-wrap ease animated" data-fx="fadeInRightBig">
                 <a href="#service-detail-02" class="service-name">
-                  Paintings and Murals
+                  {{serviceDetail02Text}}
                 </a>
               </div>
               <div id="service-detail-02" class="service-details">
@@ -277,9 +277,9 @@
                     <img alt="polo" title="polo" class="img-responsive" src="images/icons/service02.png"/>
                   </article>
                   <article class="col-md-10 text-left">
-                    <h5>Collected Privatedly and </h5>
+                    <h5>Sed bibendum gravida mauris,</h5>
                     <p>
-                    consectetur adipiscing elit. Sed eu vestibulum est. 
+                     sit amet aliquam eros convallis ut. consectetur adipiscing elit. Sed eu vestibulum est. 
                     </p>
                   </article>
                 </div>
@@ -291,7 +291,7 @@
             <!-- service-item:starts -->
             <li>
               <div class="service-name-wrap ease animated" data-fx="fadeInLeftBig">
-                <a href="#service-detail-03" class="service-name">Traditional Handicrafts
+                <a href="#service-detail-03" class="service-name"> {{serviceDetail03Text}}
                 </a>
               </div>
               <div id="service-detail-03" class="service-details">
@@ -338,23 +338,23 @@
 <footer id="mastfoot" class="mastfoot dark-bg">
 
 
-<!-- inner-section : starts -->
-  <!-- <section class="inner-section tweet-panel-wrap"> -->
+ inner-section : starts -->
+   <section class="inner-section tweet-panel-wrap">
 
-  <!--   <!-- container : starts --> -->
-  <!--   <section class="container"> -->
+    <!-- container : starts --> 
+    <section class="container">
 
-  <!--   <div class="row"> -->
-  <!--     <article class="col-md-12 text-center"> -->
-  <!--       <a href="#"><img alt="polo" title="polo" src="images/social/01.png" ></a> -->
-  <!--                   <article id="ticker" class="query"></article> -->
-  <!--     </article> -->
-  <!--   </div> -->
+    <div class="row"> 
+       <article class="col-md-12 text-center"> 
+         <a href="#"><img alt="polo" title="polo" src="images/social/01.png" ></a> 
+                    <article id="ticker" class="query"></article> 
+   </article> 
+   </div> 
 
-  <!--   </section> -->
+    </section>
 
-  <!-- </section> -->
-  <!-- <!-- inner-section : ends --> -->
+   </section> 
+   <!-- inner-section : ends -->
 
 
 <!-- inner-section:starts -->
@@ -362,7 +362,7 @@
   <div class="container">
     <div class="row">
         <article class="col-md-12 text-center foot-logos">
-          <img alt="polo" title="polo" src="images/joethirty.png"/>
+          <img alt="logo" title="logo" src="images/logo.png"/>
           <p class="credits">Built by Biomassives.<br/>Copyright &copy; 2015</p>
         </article>
     </div>
@@ -377,8 +377,8 @@
     <div class="row">
         <article class="col-md-12 text-center">
               <ul class="foot-social">
-            <li><a href="https://twitter.com/joethirty"><img alt="polo" title="polo" src="images/social/01.png" ></a></li>
-            <li><a href="#"><img alt="polo" title="polo" src="images/social/03.png" ></a></li>
+            <li><a href="{{twitterUrl}}"><img alt="twitter" title="twitter" src="images/social/01.png" ></a></li>
+            <li><a href="#"><img alt="facebook" title="facebook" src="images/social/03.png" ></a></li>
           </ul>
         </article>
     </div>
