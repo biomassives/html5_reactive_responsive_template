@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Tiffany Rae - Colorado Front Range Illustrator/ Photographer Portfo</title>
+<title>{{pageTitle}}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Photography & Illustration, Hand Lettering, Letterpress">
-<meta name="author" content="Adapted from Designova's JoeThirty by Biomassives for Tiffany Rae">
+<meta name="description" content="{{metaDescription}}">
+<meta name="author" content="{{metaAuthor}}">
 
 <!-- Standard Favicon-->
 <link rel="shortcut icon" href="images/favicon/favicon.ico">
@@ -64,13 +64,13 @@
 <!-- Mobile only Navigation : starts -->
 <nav class="menu" id="sm">
   <div class="sm-wrap">
-    <a href="index.html">Rosebud and Moon</a>
-    <i class="icon-remove menu-close">Tiffany Rae</i>
-    <a class="scroll" href="#intro">Home</a>
-<a class="scroll" href="#about">About</a>
-<a class="scroll" href="#questions">Collections</a>
-<a href="http://instagram.com/inkyryder/">Wildwood Wanderer</a>
-<a href="#">Speak</a>
+    <a href="index.html">{{navTitle}}</a>
+    <i class="icon-remove menu-close"></i>
+    <a class="scroll" href="#intro">{{homeLinkText}}</a>
+<a class="scroll" href="#about">{{aboutLinkText}}</a>
+<a class="scroll" href="#questions">{{secondLinkText}}</a>
+<a href="{{thirdLinkUrl}}">{{thirdLink}}</a>
+<a href="#">{{fourthLinkText}}</a>
   </div>
   <!-- Navigation Trigger Button -->
   <div id="sm-trigger" class="hidden-lg"></div>
@@ -93,14 +93,15 @@
       <div class="container">
         <div class="row">
             <article class="col-md-3 text-left">
-                  <img alt="Joe Thirty" title="Joe Thirty" class="main-logo img-responsive" src="images/joethirty.png"/>
+                  <img alt="{{logoTitleText}}" title="{{logoTitleText}}" class="main-logo img-responsive" src="images/logo.png"/>
             </article>
             <article class="col-md-9 text-right">
                   <ul class="standard-nav  standard-nav-white-text visible-lg">
-                <li><a href="#about" class="scroll">Tiffany Rae</a></li>
-                <li><a href="#questions" class="scroll">Collections</a></li>
-                <li><a href="http://instagram.com/inkyryder/">Instagram</a></li>
-                <li><a href="#">Shop</a></li>
+                   
+                <li><a href="#about" class="scroll">{{aboutLinkText}}</a></li>
+                <li><a href="#questions" class="scroll">{{secondLinkText}}</a></li>
+                <li><a href="{{thirdLinkUrl}}">{{thirdLijnkText}}</a></li>
+                <li><a href="#">{{fourthLinkText}}</a></li>
               </ul>
             </article>
         </div>
@@ -141,15 +142,15 @@
   <div class="container">
     <div class="row">
         <article class="col-md-3 text-left">
-              <img alt="Joe Thirty" title="Joe Thirty" class="main-logo img-responsive" src="images/joethirty.png"/>
+              <img alt="{{shortTitle}}" title="{{shortTitle}}" class="main-logo img-responsive" src="images/logo.png"/>
         </article>
         <article class="col-md-9 text-right">
               <ul class="standard-nav standard-nav-dark-text visible-lg">
             <li><a href="#intro" class="scroll highlighted" id="intro-linker">Home</a></li>
             <li><a href="#about" class="scroll" id="about-linker">About</a></li>
-            <li><a href="#questions" class="scroll" id="services-linker">Questions</a></li>
-            <li><a href="http://instagram.eventbrite.com/">Instagram</a></li>
-            <li><a href="#">Speak</a></li>
+            <li><a href="#questions" class="scroll" id="services-linker">{{secondLinkText}}</a></li>
+            <li><a href="{{thirdLinkUrl}}">{{thirdLinkText}}</a></li>
+            <li><a href="#">{{fourthLinkText}}</a></li>
           </ul>
         </article>
     </div>
@@ -179,8 +180,7 @@
           <article class="col-md-8 col-md-offset-2 main-caps text-center">
             <h3 class="brown">"A fountain of creativity fueled by nature." - T.R.</h3>
             <h6 class="brown">
-              Please make edits here dear one, either orally 
-              or with your hands.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin odio in sem aliquet, a commodo felis vulputate. Vestibulum accumsan ipsum aliquam, tincidunt enim vitae, blandit lectus. Quisque in mollis lectus. Mauris accumsan quis dui eget mollis. Suspendisse commodo at nunc sed luctus. Curabitur molestie odio vitae diam ultricies vehicula. Donec vel nisi massa. Aliquam in nibh in mauris posuere finibus.
             </h6>
             <div class="welcome-button">
               <a class="btn btn-polo btn-polo-brown scroll" href="#services">Portfolio</a>
@@ -188,14 +188,12 @@
 
           </article>
           <article class="col-md-8 col-md-offset-2 main-caps text-center">
-            <h3 class="brown">For Community</h3>
+            <h3 class="brown">Vestibulum tristique</h3>
             <h6 class="brown">
-              Wonderful projects could be happening more in your office.  Tiffany Rae can help with creative design themes
-              for your web, brick and mortar, branding, event concept, or branding.  Her work is accurate, done on time,
-              and at a fair price.
+             Nam molestie felis quis nisi fermentum rhoncus. Fusce ut scelerisque lectus, fermentum vulputate lectus. Quisque volutpat sodales leo, at viverra urna varius eu. Fusce at lacus massa.
             </h6>
             <div class="welcome-button">
-              <a class="btn btn-polo btn-polo-brown scroll" href="http://joethirty.eventbrite.com/">Contact Tiffany</a>
+              <a class="btn btn-polo btn-polo-brown scroll" href="{{contactUrl}}">Contact</a>
             </div>
 
           </article>
@@ -226,8 +224,8 @@
     <div class="row">
         <article class="col-md-8 col-md-offset-2 text-center animated" data-fx="fadeInUpBig">
               <img alt="polo" title="polo" src="images/icons/services.png"/>
-          <h3 class="dark"><span>Questions?</span></h3>
-          <p class="grey">We've got answers!</p>
+          <h3 class="dark"><span> Ut lacinia </span></h3>
+          <p class="grey">volutpat nulla, sit amet tempor eros pretium dignissim. Suspendisse luctus molestie pharetra. </p>
         </article>
     </div>
   </div>
@@ -253,7 +251,7 @@
                     <img alt="polo" title="polo" class="img-responsive" src="images/icons/service01.png"/>
                   </article>
                   <article class="col-md-10 text-left">
-                    <h5>Pajaki, Embroidery, Hand Hooked Rugs, Fabric Design, Paper Flowers.</h5>
+                    <h5>Lorem ipsum dolor sit amet</h5>
                     <p>
   
 
@@ -281,7 +279,7 @@
                   <article class="col-md-10 text-left">
                     <h5>Collected Privatedly and </h5>
                     <p>
-                    Tiffany's work hangs both in private collections and in public spaces. If you would to discuss needs original design collateral created for a 
+                    consectetur adipiscing elit. Sed eu vestibulum est. 
                     </p>
                   </article>
                 </div>
@@ -302,9 +300,9 @@
                     <img alt="polo" title="polo" class="img-responsive" src="images/icons/service03.png"/>
                   </article>
                   <article class="col-md-10 text-left">
-                    <h5>Yes!</h5>
+                    <h5>Sed eu vestibulum est. </h5>
                     <p>
-                    this is not random
+                    Phasellus consequat tempus risus id vulputate. Morbi commodo tempus dictum. Etiam nulla urna, ultricies ac purus sed, ullamcorper consequat neque.
                     </p>
                   </article>
                 </div>
@@ -365,7 +363,7 @@
     <div class="row">
         <article class="col-md-12 text-center foot-logos">
           <img alt="polo" title="polo" src="images/joethirty.png"/>
-          <p class="credits">Built by Differential.<br/>Copyright &copy; 2014</p>
+          <p class="credits">Built by Biomassives.<br/>Copyright &copy; 2015</p>
         </article>
     </div>
   </div>
