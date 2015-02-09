@@ -10,36 +10,67 @@ Useful project tempate for Single Page Apps
 Makes use of the following JS libraries 
 
 jquery.appear.js
+
 jquery.backstretch.min.js
+
 jquery.easing.1.3.js
+
 jquery.mixitup.js
+
 jquery.parallax.min.js
+
 jquery.sudoSlider.js
+
 jquery.touchSwipe.js
+
 jquery.tweet.js
 
+-------------------------
+
 animations-init.js
+
 bgslider-zoom-init.js
+
 bgvideo-init.js
+
 classie.js
+
 device.min.js
+
 flexslider.js
+
 form-validation.js
+
 image-blur-effect.js
+
 mb.bgndGallery.js
+
 mobile-resets.js
+
 nova-text-rotator.js
+
 okvideo.js
+
 owl.carousel.js
+
 pace.min.js
+
 parallax-init.js
+
 portfolio.js
+
 retina.js
+
 rs-init.js
+
 slidingmenu.js
+
 smooth-scroll.js
+
 sudoslider-touch-init.js
+
 venobox.min.js
+
 waypoints.min.js
 
 
